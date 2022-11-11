@@ -66,6 +66,6 @@ def nutrition(index):
     
     print(response.text)     
     return response.json()['items']
-if __name__ == "_main_":
+if __name__ == "__main__":
    # running the app
     app.run(debug=True)
